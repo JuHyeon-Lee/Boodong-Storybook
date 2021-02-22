@@ -1,3 +1,8 @@
+article {
+    height: 500px;
+    background-color: #e6e9ee;
+}
+
 label {
     font-weight: bold;
 }
