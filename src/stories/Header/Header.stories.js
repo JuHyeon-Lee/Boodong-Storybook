@@ -11,5 +11,5 @@ const Template = (args) => <Header {...args} />;
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {
-    user: 'OO부동산',
+    user: '인하공인중개사',
 };

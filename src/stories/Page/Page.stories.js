@@ -9,7 +9,7 @@ export default {
 
 const Template = (args) => <Page {...args} />;
 
-export const EstateList = Template.bind({});
-EstateList.args = {
-    type: 'EstateList',
+export const SalesList = Template.bind({});
+SalesList.args = {
+    content: 'SalesList',
 };
