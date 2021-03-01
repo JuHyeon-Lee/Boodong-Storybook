@@ -5,7 +5,7 @@ import './header.css';
 
 export const Header = ({ user }) => (
     <header>
-        <label>{user}</label>
+        <label class='header-username'>{user}</label>
     </header>
 );
 

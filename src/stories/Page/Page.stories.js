@@ -12,4 +12,6 @@ const Template = (args) => <Page {...args} />;
 export const SalesList = Template.bind({});
 SalesList.args = {
     content: 'SalesList',
+    type: 'TRADE',
+    status: 'SALE',
 };

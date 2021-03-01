@@ -1,3 +1,33 @@
-.sales-list-item-item label{
-    font-weight: normal;
+.sales-list-item{
+    padding: 5px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.sales-list-item:nth-child(4){
+    margin-top: 10px;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.sales-name{
+    display: inline-block;
+    width: 200px;
+}
+
+.sales-donghosu{
+    display: inline-block;
+    width: 140px;
+}
+
+.sales-pyung, .sales-direction{
+    display: inline-block;
+    width: 75px;
+}
+
+.sales-registeredDate{
+    display: inline-block;
+    width: 120px;
+}
+
+.sales-postpone{
+    margin-right: 10px;
 }

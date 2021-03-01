@@ -5,10 +5,12 @@ import './list.css';
 
 import { ListItem } from '../ListItem/ListItem';
 
-export const List = ({ sales }) => (
-    <div>
-        <ListItem type='header' />
-        {sales.map(element => <ListItem type='item' salesItem={element}/>)}
+export const List = ({ sales, type, status}) => (
+    <div class='sales-list'>
+        {type==='TRADE' ? <label class='selected-tab'>매매</label> : <label class='unselected-tab'>매매</label>}
+        {type==='JEONSE' ? <label class='selected-tab'>전세</label> : <label class='unselected-tab'>전세</label>}
+        {type==='WALLSE' ? <label class='selected-tab'>월세</label> : <label class='unselected-tab'>월세</label>}
+        {sales.map(element => element.type===type ? <ListItem salesItem={element}/> : <></>)}
     </div>
 );
 

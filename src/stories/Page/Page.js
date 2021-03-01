@@ -6,10 +6,10 @@ import { List } from '../List/List';
 import { sales } from '../../data/dummy'
 import './page.css';
 
-export const Page = ({ content }) => (
+export const Page = ({ content, type, status }) => (
     <article>
         <Header user='인하공인중개사' />
-        {content==='SalesList' ? <List sales={sales} /> : <div></div>}
+        {content==='SalesList' ? <List sales={sales} type={type} status={status}/> : <div></div>}
     </article>
 );
 

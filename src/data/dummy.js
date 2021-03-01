@@ -1,7 +1,7 @@
 export const sales = [
     {
         "saleId": 1,
-        "registeredDate": "2018-03-01T17:03:50.445428",
+        "registeredDate": "2018-03-01",
         "saleStatus": "SALE",
         "name": "부자아파트",
         "dong": 105,
@@ -14,7 +14,7 @@ export const sales = [
     },
     {
         "saleId": 2,
-        "registeredDate": "2018-03-01T17:03:50.445428",
+        "registeredDate": "2018-03-02",
         "saleStatus": "SALE",
         "name": "최고부자아파트",
         "dong": 101,

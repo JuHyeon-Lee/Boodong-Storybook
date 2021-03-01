@@ -1,0 +1,10 @@
+.selected-tab{
+    display: inline-block;
+    width: 40px;
+    font-weight: bold;
+}
+
+.unselected-tab{
+    display: inline-block;
+    width: 40px;
+}
