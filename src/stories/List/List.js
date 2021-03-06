@@ -17,6 +17,7 @@ export const List = ({ sales, type, status}) => (
             {status==='SOLDOUT' ? <label class='selected-nav'>판매완료</label> : <label class='unselected-nav'>판매완료</label>}
             {status==='HOLDING' ? <label class='selected-nav'>보류중</label> : <label class='unselected-nav'>보류중</label>}
         </div>
+        <ListItem type='sales-filter'/>
         {sales.map(element => element.type===type && element.saleStatus===status ? <ListItem salesItem={element}/> : <></>)}
     </div>
 );
