@@ -1,10 +1,25 @@
+.sales-list{
+
+}
+
 .selected-tab{
     display: inline-block;
-    width: 40px;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .unselected-tab{
     display: inline-block;
-    width: 40px;
+    margin-right: 5px;
+}
+
+.selected-nav{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.unselected-nav{
+    display: inline-block;
+    margin-right: 5px;
 }
